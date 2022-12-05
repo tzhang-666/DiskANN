@@ -4,7 +4,5 @@ This repo is fork from https://github.com/microsoft/DiskANN with slight modifica
 
 ## Build Step
 
-1. cd build && cmake ..
-2. cd ..
-3. MsBuild build_libtcmalloc_minimal.vcxproj
-4. MsBuild diskann.vcxproj
+1. MsBuild build_libtcmalloc_minimal.vcxproj
+2. MsBuild diskann.vcxproj
