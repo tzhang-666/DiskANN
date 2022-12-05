@@ -42,6 +42,8 @@ if (MSVC)
     message(STATUS "Finished setting up nuget dependencies")
 endif()
 
+message(FATAL_ERROR "Finished the Dependencies download, Exit.")
+
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # It's necessary to include tcmalloc headers only if calling into MallocExtension interface.
