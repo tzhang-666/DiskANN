@@ -234,8 +234,8 @@ else()
 endif()
 
 add_subdirectory(src)
-add_subdirectory(tests)
-add_subdirectory(tests/utils)
+#add_subdirectory(tests)
+#add_subdirectory(tests/utils)
 
 if (MSVC)
     message(STATUS "The ${PROJECT_NAME}.sln has been created, opened it from VisualStudio to build Release or Debug configurations.\n"
